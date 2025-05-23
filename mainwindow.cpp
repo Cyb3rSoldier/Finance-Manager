@@ -47,3 +47,10 @@ void MainWindow::on_button2_clicked()
 
 }
 
+
+void MainWindow::on_button3_clicked()
+{
+    QMessageBox::information(this,"Notification","Your Balance is: ");
+
+}
+

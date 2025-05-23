@@ -26,6 +26,8 @@ private slots:
 
     void on_button2_clicked();
 
+    void on_button3_clicked();
+
 private:
     Ui::MainWindow *ui;
     incomeBox *incomebox; //instance of incomeBox
