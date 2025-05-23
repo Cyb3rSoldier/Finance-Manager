@@ -17,6 +17,8 @@ public:
 
 private slots:
 
+    void on_pushButton3_clicked();
+
 private:
     Ui::incomeBox *ui;
 };
