@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>expenseBox</class>
+ <widget class="QDialog" name="expenseBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Expense Type:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label3_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Amount:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>290</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>20</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+	background-color: rgb(170, 0, 0);
+	font: 28pt &quot;Impact&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>your  Expenses</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton3">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>440</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>120</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;
+background-color: rgb(0, 85, 127);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Rent</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Groceries</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Transportation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tuition Fees</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Clothing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gym </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Healthcare </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Internet</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Phone Bill</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Travel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Others</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Date:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="date1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>440</y>
+     <width>161</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 12pt &quot;Impact&quot;;
+	color: rgb(255, 220, 206);
+	background-color: rgb(0, 85, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>  Current Balance</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::SystemSearch"/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>incomeBox</class>
+ <widget class="QDialog" name="incomeBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label3_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>310</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Amount:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>430</y>
+     <width>161</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	font: 12pt &quot;Impact&quot;;
+	color: rgb(255, 220, 206);
+	background-color: rgb(0, 85, 127);
+}</string>
+   </property>
+   <property name="text">
+    <string>  Current Balance</string>
+   </property>
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::SystemSearch"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>310</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="incomebox">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Income Type:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>400</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>CLEAR</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="date1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>220</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 85, 127);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color: rgb(255, 255, 255);
+	background-color: rgb(170, 0, 0);
+	font: 28pt &quot;Impact&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Add your Income</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;
+background-color: rgb(0, 85, 127);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Salary</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Savings</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Freelance </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Commission</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Rental Income</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Gifts</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Others</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>430</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(85, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 85, 127);
+color: rgb(255, 255, 255);
+font: 12pt &quot;Impact&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Date:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
