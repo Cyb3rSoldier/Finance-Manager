@@ -12,3 +12,6 @@ expenseBox::~expenseBox()
 {
     delete ui;
 }
+
+
+

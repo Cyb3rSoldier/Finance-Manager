@@ -15,6 +15,8 @@ public:
     explicit incomeBox(QWidget *parent = nullptr);
     ~incomeBox();
 
+private slots:
+
 private:
     Ui::incomeBox *ui;
 };

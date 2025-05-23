@@ -15,6 +15,8 @@ public:
     explicit expenseBox(QWidget *parent = nullptr);
     ~expenseBox();
 
+private slots:
+
 private:
     Ui::expenseBox *ui;
 };

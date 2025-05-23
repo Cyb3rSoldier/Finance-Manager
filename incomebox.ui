@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label3_2">
+  <widget class="QLabel" name="label3">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -245,7 +245,7 @@ background-color: rgb(85, 0, 0);</string>
     <string>BACK</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label3">
+  <widget class="QLabel" name="label2">
    <property name="geometry">
     <rect>
      <x>50</x>

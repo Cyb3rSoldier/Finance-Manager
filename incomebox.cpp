@@ -12,3 +12,7 @@ incomeBox::~incomeBox()
 {
     delete ui;
 }
+
+
+
+
