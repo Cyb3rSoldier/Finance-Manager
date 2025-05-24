@@ -8,6 +8,8 @@ incomeBox::incomeBox(QWidget *parent)
     , ui(new Ui::incomeBox)
 {
     ui->setupUi(this);
+    //connet incomeAdd (add button)
+    connect(ui->pushButton,&QPushButton::clicked,this,&incomeBox::incomeAdd);
 }
 
 incomeBox::~incomeBox()
@@ -26,14 +28,22 @@ void incomeBox::on_pushButton3_clicked()
 }
 
 
-void incomeBox::on_pushButton_clicked()
+//add button
+
+void incomeBox::incomeAdd()
 {
     QMessageBox::information(this,"Notification","Income Added Successful!");
+
 }
 
+//balance button
 
 void incomeBox::on_button3_clicked()
 {
+    QString amount = ui->lineEdit->text();
+    emit getIncome(amount);
+
+
     QMessageBox::information(this,"Notification","Your Balance is: ");
 }
 

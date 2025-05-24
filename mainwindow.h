@@ -27,6 +27,7 @@ private slots:
     void on_button2_clicked();
 
     void on_button3_clicked();
+    void ongetIncome(const QString &a);
 
 private:
     Ui::MainWindow *ui;

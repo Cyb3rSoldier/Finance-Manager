@@ -10,6 +10,11 @@ class incomeBox;
 class incomeBox : public QDialog
 {
     Q_OBJECT
+    signals:
+    void getIncome(const QString &a);
+
+
+
 
 public:
     explicit incomeBox(QWidget *parent = nullptr);
@@ -19,7 +24,7 @@ private slots:
 
     void on_pushButton3_clicked();
 
-    void on_pushButton_clicked();
+    void incomeAdd();
 
     void on_button3_clicked();
 

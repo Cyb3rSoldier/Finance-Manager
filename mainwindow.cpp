@@ -1,5 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <QStringList>
+
 #include "expensebox.h"
 #include "incomebox.h"
 
@@ -9,14 +11,21 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+    , incomebox(new incomeBox(this))
 {
     ui->setupUi(this);
+    connect(incomebox,&incomeBox::getIncome,this,&MainWindow::ongetIncome);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+    delete incomebox;
 }
+
+QStringList incomeList;
+QStringList expenseList;
+int balance = 0;
 
 //task for close button
 
@@ -51,6 +60,11 @@ void MainWindow::on_button2_clicked()
 void MainWindow::on_button3_clicked()
 {
     QMessageBox::information(this,"Notification","Your Balance is: ");
+
+}
+
+void MainWindow::ongetIncome(const QString &a)
+{
 
 }
 
