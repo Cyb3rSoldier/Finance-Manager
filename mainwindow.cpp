@@ -23,11 +23,15 @@ MainWindow::~MainWindow()
     delete incomebox;
 }
 
+//variable declaration
+
 QStringList incomeList;
 QStringList expenseList;
+int total_income = 0;
+int total_expense = 0;
 int balance = 0;
 
-//task for close button
+//close button
 
 void MainWindow::on_closeButton_clicked()
 {
@@ -47,6 +51,7 @@ void MainWindow::on_button1_clicked()
     incomebox->show(); // show the incomeBox window
 }
 
+//expense button
 
 void MainWindow::on_button2_clicked()
 {
@@ -56,6 +61,7 @@ void MainWindow::on_button2_clicked()
 
 }
 
+//balance button
 
 void MainWindow::on_button3_clicked()
 {
@@ -65,6 +71,9 @@ void MainWindow::on_button3_clicked()
 
 void MainWindow::ongetIncome(const QString &a)
 {
+    int getAmount = a.toInt();
+    total_income = total_income + getAmount;
 
+    QMessageBox::information(this,"Notification","Amount: "+a+" Added Successful!");
 }
 
