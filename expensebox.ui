@@ -200,7 +200,7 @@ font: 12pt &quot;Impact&quot;;</string>
     <number>3</number>
    </property>
   </widget>
-  <widget class="QDateEdit" name="date1">
+  <widget class="QDateEdit" name="dateEdit_2">
    <property name="geometry">
     <rect>
      <x>290</x>
@@ -282,26 +282,6 @@ background-color: rgb(85, 0, 0);</string>
      </spacer>
     </item>
     <item>
-     <widget class="QPushButton" name="button3">
-      <property name="cursor">
-       <cursorShape>PointingHandCursor</cursorShape>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton{
-	font: 12pt &quot;Impact&quot;;
-	color: rgb(255, 220, 206);
-	background-color: rgb(0, 85, 127);
-}</string>
-      </property>
-      <property name="text">
-       <string>  Current Balance</string>
-      </property>
-      <property name="icon">
-       <iconset theme="QIcon::ThemeIcon::SystemSearch"/>
-      </property>
-     </widget>
-    </item>
-    <item>
      <spacer name="horizontalSpacer_6">
       <property name="orientation">
        <enum>Qt::Orientation::Horizontal</enum>
@@ -331,7 +311,7 @@ background-color: rgb(85, 0, 0);</string>
     </item>
    </layout>
   </widget>
-  <widget class="QTableView" name="tableView">
+  <widget class="QTableView" name="table">
    <property name="geometry">
     <rect>
      <x>530</x>

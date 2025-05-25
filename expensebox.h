@@ -16,12 +16,14 @@ public:
     ~expenseBox();
 
 private slots:
+    void expenseAdd();              // Handles ADD button
+    void on_pushButton3_clicked();  // BACK button
+    void on_button3_clicked();      // BALANCE button (optional)
 
-    void on_pushButton3_clicked();
+    void on_pushButton2_clicked();
 
-    void on_pushButton_clicked();
-
-    void on_button3_clicked();
+signals:
+    void getExpense(const QString &amount);  // Signal to MainWindow
 
 private:
     Ui::expenseBox *ui;

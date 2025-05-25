@@ -10,23 +10,22 @@ class incomeBox;
 class incomeBox : public QDialog
 {
     Q_OBJECT
-    signals:
-    void getIncome(const QString &a);
-
-
-
 
 public:
     explicit incomeBox(QWidget *parent = nullptr);
     ~incomeBox();
 
 private slots:
+    void incomeAdd();               // Handles ADD button
+    void on_pushButton3_clicked();  // BACK button
+    void on_button3_clicked();      // BALANCE button (optional)
 
-    void on_pushButton3_clicked();
 
-    void incomeAdd();
 
-    void on_button3_clicked();
+    void on_pushButton2_clicked();
+
+signals:
+    void getIncome(const QString &amount);  // Signal to MainWindow
 
 private:
     Ui::incomeBox *ui;
