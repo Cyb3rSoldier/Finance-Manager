@@ -6,19 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>750</width>
-    <height>450</height>
+    <width>670</width>
+    <height>370</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 245, 220);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label1">
     <property name="geometry">
      <rect>
-      <x>-40</x>
-      <y>50</y>
+      <x>-80</x>
+      <y>30</y>
       <width>851</width>
       <height>53</height>
      </rect>
@@ -43,8 +46,8 @@
    <widget class="QLabel" name="label2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>130</y>
+      <x>130</x>
+      <y>110</y>
       <width>440</width>
       <height>21</height>
      </rect>
@@ -66,9 +69,9 @@
    <widget class="QPushButton" name="closeButton">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>370</y>
-      <width>80</width>
+      <x>440</x>
+      <y>290</y>
+      <width>141</width>
       <height>27</height>
      </rect>
     </property>
@@ -92,8 +95,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>190</y>
+      <x>90</x>
+      <y>170</y>
       <width>142</width>
       <height>147</height>
      </rect>
@@ -196,7 +199,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>750</width>
+     <width>670</width>
      <height>21</height>
     </rect>
    </property>

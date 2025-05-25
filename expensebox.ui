@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>500</height>
+    <width>915</width>
+    <height>485</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,8 +16,8 @@
   <widget class="QLabel" name="label2">
    <property name="geometry">
     <rect>
-     <x>92</x>
-     <y>122</y>
+     <x>30</x>
+     <y>115</y>
      <width>161</width>
      <height>25</height>
     </rect>
@@ -40,8 +40,8 @@ font: 12pt &quot;Impact&quot;;</string>
   <widget class="QLabel" name="label3_2">
    <property name="geometry">
     <rect>
-     <x>92</x>
-     <y>287</y>
+     <x>30</x>
+     <y>280</y>
      <width>161</width>
      <height>25</height>
     </rect>
@@ -64,8 +64,8 @@ font: 12pt &quot;Impact&quot;;</string>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>290</y>
+     <x>228</x>
+     <y>283</y>
      <width>181</width>
      <height>27</height>
     </rect>
@@ -79,8 +79,8 @@ color: rgb(255, 255, 255);</string>
   <widget class="QLabel" name="label1">
    <property name="geometry">
     <rect>
-     <x>-160</x>
-     <y>20</y>
+     <x>-120</x>
+     <y>30</y>
      <width>1141</width>
      <height>51</height>
     </rect>
@@ -108,8 +108,8 @@ color: rgb(255, 255, 255);</string>
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>120</y>
+     <x>228</x>
+     <y>113</y>
      <width>181</width>
      <height>27</height>
     </rect>
@@ -179,8 +179,8 @@ background-color: rgb(0, 85, 127);</string>
   <widget class="QLabel" name="label3">
    <property name="geometry">
     <rect>
-     <x>92</x>
-     <y>203</y>
+     <x>30</x>
+     <y>196</y>
      <width>161</width>
      <height>25</height>
     </rect>
@@ -203,8 +203,8 @@ font: 12pt &quot;Impact&quot;;</string>
   <widget class="QDateEdit" name="dateEdit_2">
    <property name="geometry">
     <rect>
-     <x>290</x>
-     <y>200</y>
+     <x>228</x>
+     <y>193</y>
      <width>181</width>
      <height>30</height>
     </rect>
@@ -314,10 +314,10 @@ background-color: rgb(85, 0, 0);</string>
   <widget class="QTableView" name="table">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>460</x>
      <y>110</y>
      <width>421</width>
-     <height>221</height>
+     <height>241</height>
     </rect>
    </property>
    <property name="minimumSize">
