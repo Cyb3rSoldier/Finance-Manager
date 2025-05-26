@@ -18,9 +18,7 @@ public:
 private slots:
     void expenseAdd();              // Handles ADD button
     void on_pushButton3_clicked();  // BACK button
-    void on_button3_clicked();      // BALANCE button (optional)
-
-    void on_pushButton2_clicked();
+    void on_pushButton2_clicked(); //Clear button
 
 signals:
     void getExpense(const QString &amount);  // Signal to MainWindow

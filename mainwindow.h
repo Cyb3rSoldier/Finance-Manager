@@ -25,7 +25,7 @@ private slots:
     void ongetIncome(const QString &amount); // Slot to handle income signal
     void ongetExpense(const QString &amount); // Slot to handle expense signal
 
-    void on_closeButton_clicked();
+    void on_closeButton_clicked(); //Close Button
 
 private:
     Ui::MainWindow *ui;

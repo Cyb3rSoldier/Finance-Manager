@@ -15,6 +15,8 @@ incomeBox::~incomeBox()
     delete ui;
 }
 
+//Add Income
+
 void incomeBox::incomeAdd()
 {
     QString amount = ui->lineEdit->text().trimmed();
@@ -37,17 +39,15 @@ void incomeBox::incomeAdd()
     ui->lineEdit->clear();
 }
 
+//Back Button
+
 void incomeBox::on_pushButton3_clicked()
 {
     this->hide();                    // Hide this dialog
     this->parentWidget()->show();   // Show MainWindow (the parent)
 }
 
-void incomeBox::on_button3_clicked()
-{
-    QMessageBox::information(this, "Balance", "Your balance is visible in the main window.");
-}
-
+//Clear Button
 
 void incomeBox::on_pushButton2_clicked()
 {

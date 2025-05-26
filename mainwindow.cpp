@@ -21,21 +21,24 @@ MainWindow::~MainWindow()
     delete expensebox;
 }
 
-// Button1 - Open IncomeBox
+// Open IncomeBox
+
 void MainWindow::on_button1_clicked()
 {
     this->hide();
     incomebox->show();
 }
 
-// Button2 - Open ExpenseBox
+// Open ExpenseBox
+
 void MainWindow::on_button2_clicked()
 {
     this->hide();
     expensebox->show();
 }
 
-// Button3 - Show balance
+// Show balance
+
 void MainWindow::on_button3_clicked()
 {
     int balance = getBalance();
@@ -43,12 +46,14 @@ void MainWindow::on_button3_clicked()
 }
 
 // Handle income from dialog
+
 void MainWindow::ongetIncome(const QString &amount)
 {
     total_income += amount.toInt();
 }
 
 // Handle expense from dialog
+
 void MainWindow::ongetExpense(const QString &amount)
 {
     total_expense += amount.toInt();

@@ -15,6 +15,8 @@ expenseBox::~expenseBox()
     delete ui;
 }
 
+//Add Expense
+
 void expenseBox::expenseAdd()
 {
     QString amount = ui->lineEdit->text().trimmed();
@@ -37,16 +39,15 @@ void expenseBox::expenseAdd()
     ui->lineEdit->clear();
 }
 
+//Back Button
+
 void expenseBox::on_pushButton3_clicked()
 {
     this->hide();                   // Hide expenseBox
     this->parentWidget()->show();  // Show MainWindow
 }
 
-void expenseBox::on_button3_clicked()
-{
-    QMessageBox::information(this, "Balance", "Your balance is visible in the main window.");
-}
+//Clear Button
 
 void expenseBox::on_pushButton2_clicked()
 {
