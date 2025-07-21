@@ -27,5 +27,3 @@ Inside the project, you’ll find components supporting the following:
 📅 Date-Wise Record Management  
 📊 Automatic Balance Computation  
 📑 Tabular Display of Transactions Using QTableView  
-🎨 Visually Styled Forms Using Qt Designer  
-🔄 Signal-Slot Mechanism for Real-Time Updates
