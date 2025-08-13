@@ -1,6 +1,6 @@
 📘 Finance Manager  
 Welcome to the Finance Manager project!  
-This application is designed for individuals and small businesses, aiming to simplify and digitize personal finance tracking for improved awareness and better budgeting decisions.
+This application is designed for individuals aiming to simplify and digitize personal finance tracking for improved awareness and better budgeting decisions.
 
 🎯 Project Objectives  
 The system fulfills several essential functions, including:
@@ -27,5 +27,3 @@ Inside the project, you’ll find components supporting the following:
 📅 Date-Wise Record Management  
 📊 Automatic Balance Computation  
 📑 Tabular Display of Transactions Using QTableView  
-🎨 Visually Styled Forms Using Qt Designer  
-🔄 Signal-Slot Mechanism for Real-Time Updates
